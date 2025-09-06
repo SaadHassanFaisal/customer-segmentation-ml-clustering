@@ -63,12 +63,27 @@ The solution includes:
 
 ---
 
-## 📈 Business Value
-This project demonstrates how unsupervised learning can transform raw retail transactions into **strategic insights**:  
-- 📌 **Marketing**: Launch targeted campaigns per segment  
-- 📌 **Customer Retention**: Detect churn-prone groups early  
-- 📌 **Revenue Optimization**: Prioritize high-value clusters  
-- 📌 **Personalization**: Deliver tailored promotions and experiences  
+##  Dataset
+
+The dataset is hosted externally due to its size. You can download all necessary files from the Google Drive folder here:
+
+🔗 [Download Dataset (Google Drive)](https://drive.google.com/drive/folders/1geUrlsszXgqRyD3_WOhuORHqHudBpKLO?usp=drive_link)
+
+###  Available Files
+- `0_OR_clean.csv` → Cleaned transactional dataset after removing nulls, duplicates, and outliers  
+- `df_encoded.csv` → Feature-engineered dataset with RFM metrics and categorical encoding  
+- `df_scaled.csv` → Scaled dataset using MinMax/Standard Scaler, ready for clustering  
+- `df_clustered.csv` → Final output with assigned cluster labels for each customer  
+
+> For reproducibility, simply run the Jupyter Notebooks in order to regenerate each step—from cleaning → encoding → scaling → clustering.
+
+---
+
+###  Data Processing Workflow
+
+```plaintext
+0_OR_clean.csv ──► df_encoded.csv ──► df_scaled.csv ──► df_clustered.csv
+
 
 ---
 

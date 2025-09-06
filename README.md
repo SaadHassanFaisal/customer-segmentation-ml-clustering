@@ -81,8 +81,7 @@ The dataset is hosted externally due to its size. You can download all necessary
 
 ###  Data Processing Workflow
 
-```plaintext
-0_OR_clean.csv ──► df_encoded.csv ──► df_scaled.csv ──► df_clustered.csv
+0_OR_clean.csv ──► df_encoded.csv ──► df_scaled.csv ──► df_clustered.csv 
 
 
 ---
